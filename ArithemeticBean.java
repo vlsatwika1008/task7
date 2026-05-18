@@ -40,3 +40,20 @@ public class ArithmeticBean implements Serializable {
         return result;
     }
 }
+
+
+// folder in xampp/tomcat/webapps
+// MyArithmeticApp/
+// ├── index.jsp                  <-- The frontend user interface
+// └── WEB-INF/                   <-- Private directory (not accessible via URL)
+//     ├── classes/               <-- Compiled Java bytecode
+//     │   └── beans/             <-- Package folder for your Java classes
+//     │       └── ArithmeticBean.class
+
+// need to compile ArithmeticBean.java: in cmd after path use :--- javac -d . ArithmeticBean.java
+// then place in beans delete .java file
+
+
+// open with:http://localhost:8080/MyArithmeticApp/index.jsp
+
+
