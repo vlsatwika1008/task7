@@ -42,3 +42,22 @@ default: result = 0;
 // open with:http://localhost:8080/MyArithmeticApp/index.jsp
 
 
+//lab
+// Note: Ensure that your project directory structure is something like this: 
+// MyArithmeticApp/ 
+// ├── WEB-INF/ 
+// │ ├── classes/ 
+// │ │ └── beans/ 
+// │ │  
+// └── ArithmeticBean.class 
+// │ ├ 
+// │ └── web.xml 
+// └── index.jsp 
+// └── arithmetic.jsp 
+
+// Go to CMD and COMPILE ArithmeticBean.java file there .class file will 
+// automatically creates 
+// C:\Users\HP\Desktop\fswd_25\FSWD_gr25_tasks\MyArithmeticApp\WEB
+// INF\classes\beans>javac ArithmeticBean.java 
+// OUTPUT: 
+// http://localhost:8080/MyArithmeticApp/index.jsp
