@@ -17,3 +17,9 @@ pageEncoding="UTF-8" %>
 <option value="add">Addition (+)</option> 
 <option value="subtract">Subtraction (-)</option> 
 <option value="multiply">Multiplication (*)</option> 
+<option value="divide">Division (/)</option> 
+</select><br><br> 
+<input type="submit" value="Calculate"> 
+</form> 
+</body> 
+</html>
